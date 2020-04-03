@@ -12,7 +12,7 @@ Tutoriel pour récupérer et travailler en ligne sur le projet Angular "Pitchup"
 - Cliquez sur "Fork" en haut à droite, pour l'associer à votre compte
 
 ### 3. Renommer le fichier
-- - Renommez le projet en utilisant **le champ en haut à gauche** de la fenêtre : ![Renommer projet](https://i.ibb.co/hygbPBV/Annotation-2020-04-03-114946.png)
+- Renommez le projet en utilisant **le champ en haut à gauche** de la fenêtre : ![Renommer projet](https://i.ibb.co/hygbPBV/Annotation-2020-04-03-114946.png)
  - Utiliser le format de nommage suivant : pitchupconfinement_ *vos initiales*
 - Vérifiez que le projet est bien ajouté à votre compte en cliquant sur votre pseudonyme en haut à droite
  - S'il n'est pas là, recommencez ! :)
