@@ -12,7 +12,7 @@ Tutoriel pour récupérer et travailler en ligne sur le projet Angular "Pitchup"
 - Cliquez sur "Fork" en haut à droite, pour l'associer à votre compte
 
 ### 3. Renommer le fichier
-- Renommez le projet en utilisant **le champ en haut à gauche** de la fenêtre : 
+- Renommez le projet en utilisant **le champ en haut à gauche** de la fenêtre :
 ![Renommer projet](https://i.ibb.co/hygbPBV/Annotation-2020-04-03-114946.png)
  - Utilisez le format de nommage suivant : pitchupconfinement_ *vos initiales*
 - Vérifiez que le projet est bien ajouté à votre compte en cliquant sur votre pseudonyme en haut à droite
@@ -21,13 +21,20 @@ Tutoriel pour récupérer et travailler en ligne sur le projet Angular "Pitchup"
 ## II. Créer un component
 Pour créer un component, nous passons d'habitude par la console avec la commande `ng g c` , sur Stackblitz, il n'y a pas de terminal nous permettant cela, il faut donc les **créer à la main** en veillant à **n'oublier aucune étape** !
 
-### 1. Récuperer le fichier d'exemple sur le repository [pitchup_confinement](https://github.com/PN-promo6/pitchup_confinement)
-- **Renommer** le fichier en remplaçant "Example" par le nom de votre component
-- **Modifier** le fichier en remplaçant **toutes les occurrences de "Example"** par le nom de votre component
+### 1. Récuperer le dossier d'exemple sur le repository [pitchup_confinement](https://github.com/PN-promo6/pitchup_confinement)
+- Récupérer le dossier contenu dans `src/app/example`
+- **Renommer le dossier et ses fichiers** en remplaçant `example` par le nom de votre component
+- **Modifier** le fichier `example.component.ts` en remplaçant **toutes les occurrences de `example`** par le nom de votre component :
+  - Dans l'objet `@Component({...})`
+  - Dans le nom de la classe `export class ExampleComponent`
 
 ### 2. Déclarer le component dans `app.modules.ts`
 - Déclarer le component en haut du fichier
- - Exemple avec _ExampleComponent_ : `import { ExampleComponent } from './example/example.component';`
+  - Exemple avec _ExampleComponent_ : `import { ExampleComponent } from './example/example.component';`
 - L'ajouter à l'array `declarations` plus bas dans le fichier
+
+### 3. Tester le nouveau component
+- Insérer la balise `<app-example><app-example>` (où `example` est le nom de votre component) dans `index.component.html`
+- Vous devez voir s'afficher *example works!* sur la page d'accueil du projet
 
 **➡️ En cas de doute : prendre exemple sur tous les components déjà créés**
