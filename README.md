@@ -18,7 +18,6 @@ Tutoriel pour récupérer et travailler en ligne sur le projet Angular "Pitchup"
  - S'il n'est pas là, recommencez ! :)
 
 ## II. Créer un component
-
 Pour créer un component, nous passons d'habitude par la console avec la commande `ng g c` , sur Stackblitz, il n'y a pas de terminal nous permettant cela, il faut donc les **créer à la main** en veillant à **n'oublier aucune étape** !
 
 ### 1. Récuperer le fichier d'exemple sur le repository [pitchup_confinement](https://github.com/PN-promo6/pitchup_confinement)
